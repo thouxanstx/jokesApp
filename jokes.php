@@ -41,7 +41,7 @@
 
 			if($checkResult > 0) {
 				while ($row = mysqli_fetch_assoc($result)) {
-					echo "<tr><td>". $row["id"] ."</td><td>". $row["joke"] ."</td><td>". $row["status"]. "</td><tr>";
+					echo "<tr><td>". $row["id"] ."</td><td>". $row["joke"] ."</td><td>". $row["rating"]. "</td><tr>";
 				}
 				echo "</table>";
 			}

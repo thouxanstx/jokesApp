@@ -36,7 +36,7 @@
 					cols = "40"> 
 				</textarea>
 			<br>
-			<input type="text" id="status" name="status" placeholder="How funny is the joke actually...?">
+			<input type="text" id="rating" name="rating" placeholder="How funny is the joke actually...?">
 			<br>
 			<button type="submit" id="send"> Send Joke </button>
 			</form>
